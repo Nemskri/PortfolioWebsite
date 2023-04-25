@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/react.gltf')
+  const { nodes, materials } = useGLTF('/img/react.gltf')
   return (
     <group {...props} dispose={null}>
       <group scale={0.01}>

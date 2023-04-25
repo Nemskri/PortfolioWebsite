@@ -12,7 +12,7 @@ import { useGLTF } from '@react-three/drei'
 
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/css.gltf')
+  const { nodes, materials } = useGLTF('/img/css.gltf')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, -1.58]}>
